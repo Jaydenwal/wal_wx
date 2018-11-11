@@ -1,0 +1,29 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view class='base'>
+  <view class='cell1'>
+      <text>欢迎注册</text>
+  </view>
+  <view class='cell2'>
+     <view class='size'><text>姓名：</text></view>
+     <input class='kk' placeholder='请输入姓名' bindinput='nameInput'></input>
+  </view>
+  <view class='cell2'>
+     <view class='size'><text>性别：</text></view>
+     <input class='kk' placeholder='请输入性别' bindinput='sexInput'></input>
+  </view>
+  <view class='cell2'>
+     <view class='size'><text>电话：</text></view>
+     <input class='kk' placeholder='请输入电话' bindinput='phoneInput'></input>
+  </view>
+  <view class='cell2'>
+     <view class='size'><text>邮箱：</text></view>
+     <input class='kk' placeholder='请输入邮箱' bindinput='mailInput'></input>
+  </view>
+  <button class='btn' bindtap='uploadClick'>点击上传图片</button>
+  <button class='btn' bindtap='btnClick'>注册</button>
+  <view class='img'><image src='{{imagePath}}' class='tupian'></image></view>
+
+
+
+
+</view>

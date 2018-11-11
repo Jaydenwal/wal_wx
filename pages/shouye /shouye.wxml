@@ -1,0 +1,36 @@
+<!--pages/shouye /shouye.wxml-->
+<view class='base'> 
+
+ <view class='lunbo'>
+  <swiper indicator-dots='true' indicator-color='hotpink' interval='3000' duration='5000' autoplay='true'>
+   <block wx:for='{{lunbotu}}'>
+    <swiper-item>
+      <image src='{{item}}'></image>
+    </swiper-item>
+   </block>
+  </swiper>
+ </view>
+
+
+  <view class='wenben'>
+    <view class='cell'>
+      <input class='cell1' placeholder='请输入用户姓名：' bindinput='nameInput'></input>
+    </view>
+    <view class='cell'>
+      <input class='cell1' placeholder='请输入用户密码：' password='true'  bindinput='pwdInput'></input>
+    </view>
+    <view class='yanzhengma'>
+      <input class='cell2' placeholder='请输入验证码：' bindinput='codeInput'></input>
+      <text class='biubiu' bindtap='codeClick'>{{changecode}}</text>
+    </view>
+    <view class='xianshi'>
+      <text>{{result}}</text>
+    </view>
+    <view class='tiaozhuan'>
+      <button class='cell3' bindtap='btnClick' type='primary'><text class='btn'>登录</text></button>
+      <text>/</text>
+      <button class='cell3' bindtap='btnClick0' type='primary'><text class='btn'>注册</text></button>
+    </view>
+  
+  </view>
+</view >

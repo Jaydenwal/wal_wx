@@ -1,0 +1,106 @@
+/* pages/geren/geren.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-color:bisque;
+}
+.top{
+  width: 100%;
+  height: 10vh;
+  background-color:gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cname{
+  width: 520rpx;
+  height: 80rpx;
+  border: 4rpx solid black;
+  border-radius: 15rpx;
+  margin: 15rpx;
+}
+.cbtn{
+  width: 180rpx;
+  height: 80rpx;
+  background-color: gainsboro;
+  font-size: 36rpx;
+  text-align: center;
+  justify-content: center;
+}
+.content{
+  width: 100%;
+  height: 90vh;
+  background-color: beige;
+}
+/**照片，姓名格开始---------------------**/
+.view1{
+  width: 100%;
+  height: 200rpx;
+  /*border: 1rpx solid black;*/
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  background-color:cornflowerblue;
+}
+.tupian{
+  width:160rpx;
+  height:160rpx;
+  border-radius: 15rpx;
+  /*border: 1rpx solid black;*/
+  background-color: papayawhip;
+}
+.cimg{
+  width: 100%;
+  height: 100%;
+}
+.wenben{
+  width: 320rpx;
+  height: 160rpx;
+  /*border: 1rpx solid black;*/
+  display: flex;
+  flex-direction: column;
+  font-size: 42rpx;
+}
+/**照片，姓名格结束--------------------------------------**/
+.view2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rpx;
+}
+
+.haoma{
+  width: 540rpx;
+  height: 10vh;
+  border: 1rpx solid black;
+  border-radius: 25rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 15rpx;
+}
+.view3{
+  width: 100%;
+  height: 20vh;
+  /* border: 1rpx solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view4{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.shiping{
+  width: 690rpx;
+  height: 400rpx;
+}
+.cvideo{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,33 @@
+<!--pages/geren/geren.wxml-->
+<view class='base'>
+<!-------top-start----------->
+  <view class='top'>
+    <input placeholder='请输入用户姓名' bindinput='nameInput' class='cname'></input>
+    <button class='cbtn' bindtap='btnClick'>查询</button>
+  </view>
+<!--------end-------------->
+
+  <view class='content'>
+    <view class='view1'>
+      <view class='tupian'>
+        <image class='cimg' src='../image/a.jpg'></image>
+      </view>
+      <view class='wenben'>
+        <text>姓名:{{username}}</text>
+        <text>性别:{{imgview.ssex}}</text>
+      </view>
+    </view>
+     
+    <view class='view2'>
+      <view class='haoma' bindtap='numbClick' data-number='{{imgview.sphone}}'>
+          <text>手机号码:{{imgview.sphone}}</text>
+      </view>
+      <view class='haoma' bindtap='mailClick' data-mail='{{imgview.smail}}'>
+          <text>邮箱:{{imgview.smail}}</text>
+      </view>
+      
+    </view>
+
+  </view>
+
+ </view>

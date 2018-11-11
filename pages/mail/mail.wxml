@@ -1,0 +1,15 @@
+<!--pages/mail/mail.wxml-->
+<view class='base'>
+ <view class='top'>
+   <text class='wenzi'>电子邮件编辑</text>
+ </view>
+ <view class='biaoti'>
+   <input placeholder='请输入标题' bindinput='titleClick'></input>
+ </view>
+ <view class='content'>
+   <textarea placeholder='请输入内容' bindinput='contentClick'></textarea>
+ </view>
+ <view class='footer'>
+   <button class='ss' bindtap='sendClick'>发送</button>
+ </view>
+</view>
